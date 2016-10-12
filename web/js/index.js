@@ -9,6 +9,11 @@ $('.person_box i').hover(function(){
   $(this).removeClass('highlight_icon');});
 });
 
+$(document).ready(function(){ 
+$('.person_box').hover(function(){
+  $(this).addClass('box_light');},function(){$(this).removeClass('box_light');});
+});
+
 function timmer(){
   var time = new Date();
   y = time.getFullYear();
