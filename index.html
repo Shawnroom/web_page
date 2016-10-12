@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans Pro:200|Amiri:400|Source+Sans Pro:400|Amiri:400|Varela+Round:400' rel='stylesheet' type='text/css'><script src="//s3-ap-northeast-1.amazonaws.com/justfont-user-script/jf-39311.js"></script>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type = 'text/css' href="./css/index.css">
+  <link async src = './js/index.js'>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+</head>
+<body>
+
+<div class = 'top'>
+  <ul class = 'several_button'>
+    <li class = 'team_name'><span>團隊名稱</li></span>
+    <li class = 'botton_name'><i class="fa fa-home"></i>  HOME</li>
+    <li class = 'botton_name'><i class="fa fa-hand-o-right"></i>  ABOUT</li>
+    
+  </ul>
+</div>
+
+<div id = 'upper_page'>
+  <ul class= "tabs">
+    <li><button><i class="fa fa-code"></i>爬蟲專案</button></li>  
+    <li><button><i class="fa fa-bar-chart"></i>視覺化</button></li>
+    <li><button><i class="fa fa-stethoscope"></i>資料分析</button></li>
+    <li id = 'unique_bot' style='float: right;' onclick='timmer()'><button><i class="fa fa-clock-o"></i>顯示時間</button></li>
+  </ul>
+  <ul class = 'pj_total'>
+    <li class = 'project1'>
+      <h1 class = 'pj_title'>這是爬蟲的標題</h1>
+      <p class = 'pj_text'>這是爬蟲的敘述</p>
+    </li>
+    
+    <li class = 'project2'>
+      <h1 class = 'pj_title'></h1>
+      <p class = 'pj_text'></p>     
+    </li>
+    
+    <li class = 'project3'>  
+      <h1 class = 'pj_title'>這是標題</h1>
+      <p class = 'pj_text'>這是敘述</p>     
+    </li>   
+  </ul>
+</div>
+    
+<div id = 'lower_page'>
+  <div class = 'team'>
+    <div class = 'left_row'>
+      <h1 class = 'pj_title'>團隊名稱</h1>
+      <p class = 'pj_text'>團隊介紹</p> 
+    </div>
+    
+    <div class = 'right_row'>
+      <div class = 'row'>
+        
+        <div class = 'person_box'>     
+            <img class = 'person_image' src=http://res.cloudinary.com/dskpgbc69/image/upload/v1475646856/ye_lcjpbe.jpg alt='140x140'/>
+            <h2 class='person_text'>郝逸清</h2>
+            <a class = 'pan_mniconbox' href="http://codepen.io/luffy02468" target='_blank'>
+            <i class="fa fa-codepen fa-fw fa-2x"></i></a>
+            <a class = 'git_mniconbox' href="https://github.com" target='_blank'>
+            <i class="fa fa-github fa-fw fa-2x"></i></a>               
+            <a class = 'fb_mniconbox' href="https://www.facebook.com/luffy02468?fref=ts" target='_blank'>
+            <i class="fa fa-facebook-official fa-fw fa-2x"></i></a>                                                           
+        </div>
+        
+        <div class = 'person_box'>
+          
+            <img class = 'person_image' src=http://res.cloudinary.com/dskpgbc69/image/upload/v1475646917/xie_rlyfwd.jpg alt='140x140'/>
+            <h2 class='person_text'>謝長潤</h2>
+            <a class = 'pan_mniconbox' href="http://codepen.io/jeff15388" target='_blank'>
+            <i class="fa fa-codepen fa-fw fa-2x"></i></a>
+
+            <a class = 'git_mniconbox' href="https://github.com/Shawnroom" target='_blank'>
+            <i class="fa fa-github fa-fw fa-2x"></i></a>     
+            
+            <a class = 'fb_mniconbox' href="https://www.facebook.com/zhangrun.xie" target='_blank'>
+            <i class="fa fa-facebook-official fa-fw fa-2x"></i></a>
+                     
+                     
+        </div>
+        
+        <div class = 'person_box'>
+          
+            <img class = 'person_image' src=http://res.cloudinary.com/dskpgbc69/image/upload/v1475646996/tsai_nqiroi.jpg alt='140x140'/>
+            <h2 class='person_text'>蔡潔凡</h2>
+            <a class = 'pan_mniconbox' href="http://codepen.io/tracy0412" target='_blank'>
+            <i class="fa fa-codepen fa-fw fa-2x"></i></a>
+
+            <a class = 'git_mniconbox' href="https://github.com/tracy0412" target='_blank'>
+            <i class="fa fa-github fa-fw fa-2x"></i></a>     
+            
+            <a class = 'fb_mniconbox' href="https://www.facebook.com/veroacy?fref=ts" target='_blank'>
+            <i class="fa fa-facebook-official fa-fw fa-2x"></i></a>
+                     
+          
+        </div>
+        
+      </div>
+
+      <div class = 'row'>
+        <div class = 'person_box'>
+          <img class = 'person_image' src=http://res.cloudinary.com/dskpgbc69/image/upload/v1475647133/ch_vzyeew.jpg alt='140x140'/>
+            <h2 class='person_text'>屈佳宏</h2>
+            <a class = 'pan_mniconbox' href="http://codepen.io/jiahongqu" target='_blank'>
+            <i class="fa fa-codepen fa-fw fa-2x"></i></a>
+
+            <a class = 'git_mniconbox' href="https://github.com" target='_blank'>
+            <i class="fa fa-github fa-fw fa-2x"></i></a>     
+            
+            <a class = 'fb_mniconbox' href="https://www.facebook.com/qu.j.hong?fref=ts" target='_blank'>
+            <i class="fa fa-facebook-official fa-fw fa-2x"></i></a>
+        </div>
+        
+        <div class = 'person_box'>
+          <img class = 'person_image' src=http://res.cloudinary.com/dskpgbc69/image/upload/v1475647347/liao_zx19hh.jpg alt='140x140'/>
+            <h2 class='person_text'>廖皓宇</h2>
+            <a class = 'pan_mniconbox' href="http://codepen.io/anniehaoyu" target='_blank'>
+            <i class="fa fa-codepen fa-fw fa-2x"></i></a>
+
+            <a class = 'git_mniconbox' href="https://github.com" target='_blank'>
+            <i class="fa fa-github fa-fw fa-2x"></i></a>     
+            
+            <a class = 'fb_mniconbox' href="https://www.facebook.com/haoyuannie?fref=ts" target='_blank'>
+            <i class="fa fa-facebook-official fa-fw fa-2x"></i></a>
+        </div>
+        
+        <div class = 'person_box'>
+          <img class = 'person_image' src=http://res.cloudinary.com/dskpgbc69/image/upload/v1475647453/tone_rjnwnn.jpg alt='140x140'/>
+            <h2 class='person_text'>蕭宇彤</h2>
+            <a class = 'pan_mniconbox' href="http://codepen.io/TAROROh" target='_blank'>
+            <i class="fa fa-codepen fa-fw fa-2x"></i></a>
+
+            <a class = 'git_mniconbox' href="https://github.com" target='_blank'>
+            <i class="fa fa-github fa-fw fa-2x"></i></a>     
+            
+            <a class = 'fb_mniconbox' href="https://www.facebook.com/abcdefg3210123?fref=ts" target='_blank'>
+            <i class="fa fa-facebook-official fa-fw fa-2x"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  
+<div class = project_head>
+  <li><i class="fa fa-flag fa-2x" style='color:#cc181e;'></i></li>
+  <li>傳說中的專案</li>
+</div>
+  
+<div  class = project_page>
+  <hi class ='pj_text' style='background:#1b82e7'>要做什麼呢？</h1>
+</div>  
+  
+<div class = video_area>
+  <div class = video_text>
+  <li><i class="fa fa-youtube-play fa-2x" style='color:#cc181e;'></i></li>
+  <li>教學影片</li>
+  </div>
+  
+  <div class = video>
+    <span class = sub_video><iframe width="300" height="220" src="https://www.youtube.com/embed/u7rSnc7mYC4" frameborder="3" allowfullscreen></iframe></span>
+    <span class = sub_video><iframe width="300" height="220" src="https://www.youtube.com/embed/_oRhNepbbvU" frameborder="3" allowfullscreen></iframe></span>  
+
+  </div>
+</div>
+  
+</body>
+</html>
