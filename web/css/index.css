@@ -1,0 +1,265 @@
+.top{
+  margin: 0 100px 20px 100px;
+  width:84%;
+  height: 60px;
+  border:1px solid #cdcdcd;
+  list-style: none;
+}
+
+.top .team_name{
+  display:inline;
+  width: 150px;
+  padding: 3px 15px 7px 7px;
+  font-size: 24px;
+  font-weight:bold;
+  font-family:"daty7";
+  
+}
+
+.top li{
+  display:inline;
+  width: 100px;
+  float: left;
+  padding: 7px;
+  font-weight:bold;
+  font-family:"Varela Round";
+}
+
+.top li i{
+  margin: 0 2px 0 3px;
+}
+
+#upper_page{
+  margin: 10px 100px 0 100px;
+  width: 83%;
+  
+}
+
+#upper_page ul{
+  list-style: none;
+  margin: 0;
+	padding: 0;
+}
+
+#upper_page .tabs button{
+  float: left;
+  height: 32px;
+  width: 150px;
+  border: 2px solid #ddd;
+  border-radius: 5px 5px 0 0;
+  margin: 0 0 -3px 3px;
+  font-size: 15px;
+  font-family:"daty7";
+}
+
+#upper_page .tabs li i{
+  padding: 7px 7px 5px 4px;
+}
+
+#unique_bot{
+  color:#424242;
+  font-size:20px;
+  font-family:'Orbitron';
+}
+
+#upper_page .pj_total .project1{
+  clear: both;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	position: relative;
+	height: 330px;
+	overflow: hidden;
+  background-image: url('http://res.cloudinary.com/dskpgbc69/image/upload/v1475380388/m888_02_fxvyte.jpg')
+}
+
+#upper_page .pj_total .project2{
+  display:none;
+  clear: both;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	position: relative;
+	height: 350px;
+	overflow: hidden;
+  background-image: url('')
+}
+  
+#upper_page .pj_total .project3{
+  display:none;
+  clear: both;
+	border: 1px solid #DDD;
+	border-radius: 5px;
+	position: relative;
+	height: 350px;
+	overflow: hidden;
+  background-image: url('')
+}
+
+.pj_title {
+  font-size: 36px;
+  font-weight:bold;
+  font-family:"pentouch-regular";
+  text-align: center;
+  color:#fff
+}
+
+.pj_text {
+  font-size: 24px;
+  font-family:"pentouch-regular";
+  margin:10px 0 10px 30px; 
+  color:#fff
+}
+
+
+#upper_page .pj_total li{
+  position: absolute;
+  width:100%;
+	height: 100%;
+	padding: 5px;
+	margin-top: 5px;
+  color:#fff;
+}
+
+#lower_page{
+  margin: 10px 100px 0 100px;
+  width: 87%;
+}
+
+#lower_page .team{
+  display:table;
+  width: 100%;/*1190px*/
+  height: 520px;
+}
+
+#lower_page .left_row{
+  display:inline-block;
+  width: 31%; /*400*/
+  height: 100%;
+  border-radius: 5px;
+  vertical-align:top;
+  background-image: url(
+ 'http://res.cloudinary.com/dskpgbc69/image/upload/v1475397624/m4_07_xwrlec.jpg')
+
+}
+
+#lower_page .right_row{
+  display:inline-block;
+  width: 68%; /*780*/
+  height: 100%;
+  vertical-align:top;
+}
+
+#lower_page .row{
+  display:inline-block;
+  margin: 0 0 7px 0;
+  width: 100%;
+  height: 260px;
+  vertical-align:top;
+}
+
+#lower_page .person_box{
+  display:inline-block;
+  margin: 0 5px 0 5px;
+  width:30%;/*230*/
+  height:100%;/*255*/
+  border:1px solid #cdcdcd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  vertical-align:top;
+  text-align:center;
+  font-family:"jf-sunday";
+  font-size: 20px;
+
+}
+
+#lower_page .person_image{
+  margin:10px 15px 0 15px;
+  width:140px;
+  height:140px;
+  border-radius: 50%;
+  border:1px solid #cdcdcd; 
+}
+
+#lower_page .person_text{
+  margin:10px 0 8px 0;
+  color:#9f0000;
+}
+
+img{
+  height:auto;
+  max-width: 100%;
+}
+
+.fb_mniconbox{
+  color:#3b5998;
+}
+
+.pan_mniconbox{
+  color:black;
+}
+
+.git_mniconbox{
+  color:#7d28a6;
+}
+
+.project_head{
+  margin: 20px 100px 0 100px;
+  width: 84%;
+  height: 40px;
+  border:1px solid #cdcdcd;
+}
+
+.project_head li {
+  display:inline;
+  margin:10px 0 20px 10px;
+  font-family:"daty7";
+  font-weight:bold;
+  font-size: 18px;
+}
+
+.project_page{
+  margin: 0 100px 0 100px;
+  width: 84%;
+  height: 600px;
+  border:1px solid #cdcdcd; 
+}
+
+.video_area{
+  margin: 20px 100px 0 100px;
+  width: 84%;
+  height: 250px;
+}
+
+.video_text{
+  width: 100%;
+  height: 15%;
+  border:1px solid #cdcdcd; 
+  list-style:none;
+  font-weight:bold;
+  font-size: 18px;
+  font-family:"daty7";
+}
+
+.video_text li {
+  display:inline;
+  margin:0 0 20px 10px;
+}
+
+.video{
+  margin: 0 0 20px 0;
+  height:100%;
+  padding:15px;
+  background:black;
+  border:1px solid #cdcdcd; 
+}
+
+.sub_video{
+  margin: 0 10px 0 10px;
+}
+
+.highlight{
+  background:#297e4f;
+  color:#fff;
+}
+
+.highlight_icon{
+  background:#efefef;
+}
